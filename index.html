@@ -398,6 +398,33 @@
             main { padding: 20px; }
             .seat { font-size: 1.2rem; }
         }
+
+        .license-footer {
+            margin-top: 60px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-sub);
+            opacity: 0.8;
+        }
+
+        .license-footer p {
+            margin: 0;
+            font-weight: 500;
+        }
+
+        .license-footer a {
+            color: var(--text-sub);
+            text-decoration: none;
+            border-bottom: 1px dotted var(--text-sub);
+            transition: color 0.2s;
+        }
+
+        .license-footer a:hover {
+            color: var(--primary);
+            border-bottom-color: var(--primary);
+        }
+
     </style>
 </head>
 
@@ -485,6 +512,12 @@
         <main>
             <div id="blackboard">Front (칠판)</div>
             <div id="seatContainer"></div>
+            <footer class="license-footer">
+            <p>
+                Copyright © 2026 YeongGyu1110.<br>Licensed under the MIT License.
+                <a href="https://github.com/YeongGyu1110/class-layout" target="_blank" rel="noopener noreferrer">MIT License</a>.
+            </p>
+    </footer>
         </main>
     </div>
 
